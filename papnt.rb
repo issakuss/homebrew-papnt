@@ -3,8 +3,9 @@ class Papnt < Formula
 
   desc ""
   homepage ""
-  url "https://github.com/issakuss/papnt/raw/main/dist/papnt-0.0.1.tar.gz"
-  sha256 "09c6bfe7e93afb828249236130a63c43908af4cba1e16247d7e2c6b05fddbf90"
+  url "https://github.com/issakuss/papnt/raw/main/dist/papnt-0.0.2.tar.gz"
+  # sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "2e35a570eb6563586c979585ac8fdca8da1366202f6557d8e3208f1e1d659656"
   license "Apache-2.0"
 
   depends_on "python@3.10"
@@ -189,6 +190,16 @@ class Papnt < Formula
   resource "urllib3" do
     url "https://files.pythonhosted.org/packages/fb/c0/1abba1a1233b81cf2e36f56e05194f5e8a0cec8c03c244cab56cc9dfb5bd/urllib3-2.0.2.tar.gz"
     sha256 "61717a1095d7e155cdb737ac7bb2f4324a858a1e2e6466f6d03ff630ca68d3cc"
+  end
+
+  resource "arxiv" do
+    url "https://files.pythonhosted.org/packages/1a/94/f376f763d6e4c08a198efdc8d6e08fc6f46f38536bbf08e26111197fef8f/arxiv-2.1.0.tar.gz"
+    sha256 "eb4b1d5ab9dfd66027c344bb324c20be21d56fe15f6ce216ed5b209df747dea8"
+  end
+
+  resource "sgmllib3k" do
+    url "https://files.pythonhosted.org/packages/9e/bd/3704a8c3e0942d711c1299ebf7b9091930adae6675d7c8f476a7ce48653c/sgmllib3k-1.0.0.tar.gz"
+    sha256 "7868fb1c8bfa764c1ac563d3cf369c381d1325d36124933a726f29fcdaa812e9"
   end
 
   def install
