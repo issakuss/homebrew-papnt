@@ -3,8 +3,8 @@ class Papnt < Formula
 
   desc ""
   homepage ""
-  url "https://github.com/issakuss/papnt/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "2f8a30ba21acf050f33cb97c4a41d1b2788fd501b64befec1f53b81ec608c72b"
+  url "https://github.com/issakuss/papnt/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "a29f152ac18730945ecddb6e443c83504e239501232c046b69bb5080231e7d99"
   license "Apache-2.0"
 
   depends_on "python@3.10"
@@ -201,6 +201,16 @@ class Papnt < Formula
     sha256 "7868fb1c8bfa764c1ac563d3cf369c381d1325d36124933a726f29fcdaa812e9"
   end
 
+  resource "grobid-client-python" do
+    url "https://files.pythonhosted.org/packages/42/83/d238cf3adf1604b82880f665740d818773eee90e868806facc609bd528fe/grobid_client_python-0.0.9.tar.gz"
+    sha256 "e7b1fc35ebedec1198393226f62d210e36a7ecd6e851c56970902fd6abebae00"
+  end
+
+  resource "lxml" do
+    url "https://files.pythonhosted.org/packages/84/14/c2070b5e37c650198de8328467dd3d1681e80986f81ba0fea04fc4ec9883/lxml-4.9.4.tar.gz"
+    sha256 "b1541e50b78e15fa06a2670157a1962ef06591d4c998b998047fff5e3236880e"
+  end
+  
   def install
     virtualenv_install_with_resources
   end
