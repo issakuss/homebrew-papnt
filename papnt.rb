@@ -3,8 +3,8 @@ class Papnt < Formula
 
   desc ""
   homepage ""
-  url "https://github.com/issakuss/papnt/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "8914063b0c1ed486eebcc3da071bd8fe786844e20efff4a8c2f4ff8833985483"
+  url "https://github.com/issakuss/papnt/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "8e0508478f26f97119e8f400a8d09a8b32d48ec0ac2263f298d21a1f208c9357"
   license "Apache-2.0"
 
   depends_on "python@3.10"
@@ -41,7 +41,7 @@ class Papnt < Formula
     venv.pip_install "joblib==1.5.0"
     venv.pip_install "lxml==5.4.0"
     venv.pip_install "nltk==3.9.1"
-    venv.pip_install "notion-client==2.3.0"
+    venv.pip_install "notion-client==2.5.0"
     venv.pip_install "pdf2doi==1.7"
     venv.pip_install "pdfminer-six==20221105"
     venv.pip_install "pdftitle==0.11"
