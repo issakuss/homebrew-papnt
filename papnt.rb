@@ -3,7 +3,7 @@ class Papnt < Formula
 
   desc ""
   homepage ""
-  url "https://github.com/issakuss/papnt/archive/refs/tags/v0.3.0.tar.gz"
+  url "https://github.com/issakuss/papnt/releases/download/0.3.0/papnt-0.3.0.tar.gz"
   sha256 "8e0508478f26f97119e8f400a8d09a8b32d48ec0ac2263f298d21a1f208c9357"
   license "Apache-2.0"
 
