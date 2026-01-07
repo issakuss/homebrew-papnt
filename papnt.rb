@@ -3,8 +3,8 @@ class Papnt < Formula
 
   desc ""
   homepage ""
-  url "https://github.com/issakuss/papnt/releases/download/0.3.0/papnt-0.3.0.tar.gz"
-  sha256 "8e0508478f26f97119e8f400a8d09a8b32d48ec0ac2263f298d21a1f208c9357"
+  url "https://github.com/issakuss/papnt/releases/download/0.4.4/papnt-0.4.4.tar.gz"
+  sha256 "49abdb2dcf3373462d5f093e9478bb22117ed48e175f1b7ad111dd0c204de79e"
   license "Apache-2.0"
 
   depends_on "python@3.10"
